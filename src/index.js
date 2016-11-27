@@ -1,2 +1,4 @@
-const str = 'ES6';
+const str = "Hello world";
+
 console.log(`hello ${str}`);
+

@@ -1,0 +1,13 @@
+{
+  "name": "fromscratch",
+  "version": "1.0.0",
+  "description": "fiddling with creating a js development enviroment from scratch",
+  "main": "index.js",
+  "repository": "https://github.com/Merkoes91/jsdevelopment.git",
+  "author": "Marko de Roos",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {}
+}

@@ -2,12 +2,23 @@
   "name": "fromscratch",
   "version": "1.0.0",
   "description": "fiddling with creating a js development enviroment from scratch",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/Merkoes91/jsdevelopment.git",
   "author": "Marko de Roos",
   "license": "MIT",
   "scripts": {
     "start": "node ."
   },
-  "dependencies": {}
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
 }
